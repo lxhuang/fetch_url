@@ -9,4 +9,4 @@ Many web applications need to be able to fetch content from user-supplied URLs. 
 The service could expose an interface to the web application using either Thrift or HTTP. It should be able to handle malicious users, misbehaving servers, and access from multiple clients simultaneously. (You can assume the client itself is trusted, though)
 ==================================
 
-My solution uses Python + ZeroMQ + Memcached
+My solution uses Python + ZeroMQ + Memcached + Tornado Web Server
