@@ -1,0 +1,12 @@
+This is my approach to one of the programming challenges of stripe.com
+
+The challenge is stated as follows:
+==================================
+Fetching
+
+Many web applications need to be able to fetch content from user-supplied URLs. Using a language of yoru choice, implement an RPC service that fetches the contents of untrusted URLs.
+
+The service could expose an interface to the web application using either Thrift or HTTP. It should be able to handle malicious users, misbehaving servers, and access from multiple clients simultaneously. (You can assume the client itself is trusted, though)
+==================================
+
+My solution uses Python + ZeroMQ + Memcached
